@@ -131,3 +131,13 @@ footer{
 .g1{
     float: right;
 }
+
+.cont label{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
