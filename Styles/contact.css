@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nb img{
+    width: 50px;
+}
+
+.nb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0C59CF;
+    padding: 12px;
+}
+
+.nb nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.conttop {
+    background-color: rgba(128, 128, 128, 0.301);
+    padding: 10px;
+}
+
+.conttop span{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #0C59CF;
+    font-weight: 700;
+}
+
+.info .inp input,textarea,button{
+    width: 360px;
+}
+
+.info .inp input,button{
+    height: 38px;
+}
+
+ 
+ .inp input{
+    flex-direction: column;
+    margin-left: 20px;
+ }
+
+ footer{
+    background-color: #0C59CF;
+    padding: 20px;
+    color: white;
+    display: flex;
+    margin-top: 75px;
+    
+ }
+
+ .info{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.inp{
+    flex-direction: column;
+    display: flex;
+    margin-left: 110px;
+    gap: 20px;
+    max-width: 600px;
+    background-color: rgba(128, 128, 128, 0.301);
+    min-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 800px;
+    min-height: 560px;
+    padding-top: 30px;
+}
+
+.inp button{
+    background-color: #0C59CF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.inp textarea{
+    width: 360px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.map iframe{
+    width: 500px;
+    height: 400px;
+}
+
+.inp label{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0C59CF;
+}
+
+.map{
+    margin-right: 100px;
+}
